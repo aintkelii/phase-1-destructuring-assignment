@@ -24,6 +24,35 @@ const nestedMuppet = {
   nestedJob: 'Host of The Muppet Show',
   nestedPartner: 'Miss Piggy'
 };
+const animalSounds = "moo neigh baa oink squeak";
+const [moo, neigh, baa, oink, squeak] = animalSounds.split(" ");
+
+const traditionalAnimalNames = "cow horse sheep pig chicken";
+const [bessie, , dolly, babe, little] = traditionalAnimalNames.split(" ");
+
+const traditionalAnimalColors = "blackAndWhite brown black pink";
+const [blackAndWhite, , black] = traditionalAnimalColors.split(" ");
+
+const rainbowColors = [
+  "red",
+  "orange",
+  "yellow",
+  "green",
+  "blue",
+  "indigo",
+  "violet",
+];
+const [red, orange, yellow, green, blue, indigo, violet] = rainbowColors;
+
+const rainbowInitials = ["r", "o", "y", "g", "b", "i", "v"];
+const [r, o, y, g, b, , v] = rainbowInitials; // Skip indigo's initial
+
+const indg = rainbowColors[5]; // indigo is at index 5
+
+const { song2, song4 } = nestedMuppet.album.theMuppetMovie;
+const { nestedJob, nestedPartner } = nestedMuppet;
+
+
 
 // Strings
 
